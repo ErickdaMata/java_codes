@@ -67,10 +67,13 @@ public class MotorDeInferencia {
 				for(indice_token = 3; indice_token < regra.indexOf("entao"); indice_token += (tamanho_token+1)) 
 				{
 										
-					System.out.println("|||| MOTOR ||||| REGRA AVALIADA = " + regra);
+					//System.out.println("|||| MOTOR ||||| REGRA AVALIADA = " + regra);
+					
 					//Obtém da regra lida, uma substring até o próximo espaço vazio. Encontrando, por exemplo> INANIMADO=não
 					token = regra.substring(indice_token, regra.indexOf(" ", indice_token));
-					System.out.println("|||| MOTOR ||||| TOKEN DA REGRA = " + token);
+					
+					//System.out.println("|||| MOTOR ||||| TOKEN DA REGRA = " + token);
+					
 					//Verifica o tamanho do token, que será o passo até a proxima leitura.
 					tamanho_token = token.length();
 					
@@ -79,7 +82,9 @@ public class MotorDeInferencia {
 					{
 						//Divive o token pelo "=". Gerando> condicao[0]=INANIMADO e condicao[1]=não
 						String condicao[] = token.split("=");
-						System.out.println("|||| MOTOR >>>>>>>>>>>>>>>> AVALIANDO PARÂMETRO = " + condicao[0]);
+						
+						//System.out.println("|||| MOTOR >>>>>>>>>>>>>>>> AVALIANDO PARÂMETRO = " + condicao[0]);
+						
 						setParametro(condicao[0]);
 						resposta_esperada = condicao[1];
 						
@@ -96,14 +101,16 @@ public class MotorDeInferencia {
 							
 							//Verifica se o parâmetro respondido pelo usuário é igual ao esperado.
 							atende_regra = parametroAtendeRegra(resposta_usuario, resposta_esperada);
-							System.out.println("|||| MOTOR  -  PARÂMETRO = " + condicao[0] + " ======= ATENDE REGRA = " + atende_regra);
+							
+							//System.out.println("|||| MOTOR  -  PARÂMETRO = " + condicao[0] + " ======= ATENDE REGRA = " + atende_regra);
 						}
 						
 						//Caso o parâmetro ainda não tenha sido respondido é necessário interromper
 						//Realizar a pergunta, enviando para interface uma próxima pergunta.
 						else
 						{
-							System.out.println("|||| MOTOR ||||| SEM RESPOSTA PARA PARÂMETRO = " + condicao[0]);
+							//System.out.println("|||| MOTOR ||||| SEM RESPOSTA PARA PARÂMETRO = " + condicao[0]);
+							
 							//Finaliza o buffer e o acesso ao arquivo
 							buffer.close();
 							arquivo.close();
@@ -136,7 +143,7 @@ public class MotorDeInferencia {
 					}
 					
 				}
-				System.out.println("Chegou ao final com regra atendida = " + atende_regra);
+				//System.out.println("Chegou ao final com regra atendida = " + atende_regra);
 				
 				
 			}
