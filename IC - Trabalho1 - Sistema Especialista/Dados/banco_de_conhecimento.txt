@@ -1,0 +1,36 @@
+SE INANIMADO=false E MENOS4PATAS=true E AQUIFERO=true E MAIORQUEHOMEM=true E MAMIFERO=true E CARNIVOROOUONIVORO=true entao Baleia Jubarte
+SE INANIMADO=false E MENOS4PATAS=true E AQUIFERO=true E MAIORQUEHOMEM=true E MAMIFERO=true E CARNIVOROOUONIVORO=false entao Peixe-boi
+SE INANIMADO=false E MENOS4PATAS=true E AQUIFERO=true E MAIORQUEHOMEM=true E MAMIFERO=false entao Tubarão Lixa
+SE INANIMADO=false E MENOS4PATAS=true E AQUIFERO=true E MAIORQUEHOMEM=false E VOA=true entao Pato
+SE INANIMADO=false E MENOS4PATAS=true E AQUIFERO=true E MAIORQUEHOMEM=false E VOA=false E CULTIVOCOMOALIMENTO=true entao Salmão
+SE INANIMADO=false E MENOS4PATAS=true E AQUIFERO=true E MAIORQUEHOMEM=false E VOA=false E CULTIVOCOMOALIMENTO=false entao Pinguim
+SE INANIMADO=false E MENOS4PATAS=true E AQUIFERO=false E VOA=true E NOTURNO=true E MAMIFERO=true entao Morcego
+SE INANIMADO=false E MENOS4PATAS=true E AQUIFERO=false E VOA=true E NOTURNO=true E MAMIFERO=false entao Coruja
+SE INANIMADO=false E MENOS4PATAS=true E AQUIFERO=false E VOA=true E NOTURNO=false E COMUMCASAS=true entao Calopsita
+SE INANIMADO=false E MENOS4PATAS=true E AQUIFERO=false E VOA=true E NOTURNO=false E COMUMCASAS=false entao Falcão
+SE INANIMADO=false E MENOS4PATAS=true E AQUIFERO=false E VOA=false E MAIORQUEHOMEM=true E OVIPARO=true entao Avestruz
+SE INANIMADO=false E MENOS4PATAS=true E AQUIFERO=false E VOA=false E MAIORQUEHOMEM=true E OVIPARO=false entao Jibóia
+SE INANIMADO=false E MENOS4PATAS=true E AQUIFERO=false E VOA=false E MAIORQUEHOMEM=false E COMUMCASAS=true entao Galinha
+SE INANIMADO=false E MENOS4PATAS=true E AQUIFERO=false E VOA=false E MAIORQUEHOMEM=false E COMUMCASAS=false entao Cascavél
+SE INANIMADO=false E MENOS4PATAS=false E MAMIFERO=true E NOTURNO=true E AQUIFERO=true E OVIPARO=true entao Ornitorrinco
+SE INANIMADO=false E MENOS4PATAS=false E MAMIFERO=true E NOTURNO=true E AQUIFERO=true E OVIPARO=false entao Lontra
+SE INANIMADO=false E MENOS4PATAS=false E MAMIFERO=true E NOTURNO=true E AQUIFERO=false E COMUMCASAS=true entao Gato
+SE INANIMADO=false E MENOS4PATAS=false E MAMIFERO=true E NOTURNO=true E AQUIFERO=false E COMUMCASAS=false E MAIORQUEHOMEM=true entao Leão
+SE INANIMADO=false E MENOS4PATAS=false E MAMIFERO=true E NOTURNO=true E AQUIFERO=false E COMUMCASAS=false E MAIORQUEHOMEM=false entao Raposa
+SE INANIMADO=false E MENOS4PATAS=false E MAMIFERO=true E NOTURNO=false E COMUMCASAS=true E  MAIORQUEHOMEM=true entao Vaca
+SE INANIMADO=false E MENOS4PATAS=false E MAMIFERO=true E NOTURNO=false E COMUMCASAS=true E  MAIORQUEHOMEM=false entao Cachorro
+SE INANIMADO=false E MENOS4PATAS=false E MAMIFERO=true E NOTURNO=false E COMUMCASAS=false entao Panda
+SE INANIMADO=false E MENOS4PATAS=false E MAMIFERO=false E NOTURNO=true E AQUIFERO=true E VERTEBRADO=true entao Jacaré-do-papo-amarelo
+SE INANIMADO=false E MENOS4PATAS=false E MAMIFERO=false E NOTURNO=true E AQUIFERO=true E VERTEBRADO=false entao Lagosta
+SE INANIMADO=false E MENOS4PATAS=false E MAMIFERO=false E NOTURNO=true E AQUIFERO=false E VOA=true entao Barata 
+SE INANIMADO=false E MENOS4PATAS=false E MAMIFERO=false E NOTURNO=true E AQUIFERO=false E VOA=false entao Escorpião
+SE INANIMADO=false E MENOS4PATAS=false E MAMIFERO=false E NOTURNO=false E COMUMCASAS=true E CARNIVOROOUONIVORO=true entao Aranha Doméstica
+SE INANIMADO=false E MENOS4PATAS=false E MAMIFERO=false E NOTURNO=false E COMUMCASAS=true E CARNIVOROOUONIVORO=false entao Formiga Cortadeira
+SE INANIMADO=false E MENOS4PATAS=false E MAMIFERO=false E NOTURNO=false E COMUMCASAS=false E AQUIFERO=true entao Polvo
+SE INANIMADO=false E MENOS4PATAS=false E MAMIFERO=false E NOTURNO=false E COMUMCASAS=false E AQUIFERO=false entao Gafanhoto
+SE INANIMADO faca É um ser sem vida ou inanimado?
+SE MENOS4PATAS faca O animal possui menos que quatro patas (ou nenhuma)?
+SE AQUIFERO faca Este animal tem hábito aquífero?
+SE MAIORQUEHOMEM faca Este animal é geralmente maior que o homem?
+SE MAMIFERO faca Este animal é um mamífero?
+SE CARNIVOROOUONIVORO faca Este animal se alimente de outros animais?

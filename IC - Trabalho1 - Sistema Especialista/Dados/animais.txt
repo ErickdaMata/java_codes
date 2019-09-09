@@ -1,0 +1,31 @@
+VERTEBRADO,MAMIFERO,OVIPARO,AQUIFERO,VOA,COMUMCASAS,MAIORQUEHOMEM,CARNIVOOUONIVORO,NOTURNO,CULTIVOCOMOALIMENTO,MENOS4PATAS,Animal
+Não,Não,Sim,Não,Sim,Não,Não,Não,Não,Não,Não,Gafanhoto
+Não,Não,Sim,Não,Não,Sim,Não,Não,Não,Não,Não,Formiga Cortadera
+Não,Não,Sim,Não,Não,Sim,Não,Sim,Não,Não,Não,Aranha Doméstica
+Não,Não,Sim,Sim,Não,Não,Não,Sim,Não,Não,Não,Polvo
+Não,Não,Sim,Não,Não,Não,Não,Sim,Sim,Não,Não,Escorpião
+Não,Não,Sim,Não,Sim,Sim,Não,Sim,Sim,Não,Não,Barata
+Não,Não,Sim,Sim,Não,Não,Não,Sim,Sim,Não,Não,Lagosta
+Sim,Não,Sim,Sim,Não,Não,Sim,Sim,Sim,Não,Não,Jacaré-do-papo-amarelo
+Sim,Sim,Não,Não,Não,Não,Sim,Não,Não,Não,Não,Panda
+Sim,Sim,Não,Não,Não,Não,Sim,Sim,Sim,Não,Não,Leão
+Sim,Sim,Não,Não,Não,Não,Não,Sim,Sim,Não,Não,Raposa
+Sim,Sim,Não,Não,Não,Sim,Sim,Não,Não,Sim,Não,Vaca
+Sim,Sim,Não,Não,Não,Sim,Não,Sim,Sim,Não,Não,Gato
+Sim,Sim,Não,Sim,Não,Não,Não,Sim,Sim,Não,Não,Lontra
+Sim,Sim,Não,Não,Não,Sim,Não,Sim,Não,Não,Não,Cachorro
+Sim,Sim,Sim,Sim,Não,Não,Não,Sim,Sim,Não,Não,Ornitorrinco
+Sim,Não,Sim,Não,Sim,Sim,Não,Não,Não,Não,Sim,Calopsita
+Sim,Não,Sim,Sim,Não,Não,Sim,Sim,Sim,Não,Sim,Tubarão Lixa
+Sim,Não,Sim,Não,Sim,Não,Não,Sim,Não,Não,Sim,Falcão
+Sim,Não,Sim,Não,Não,Não,Não,Sim,Sim,Não,Sim,Cascavél
+Sim,Não,Sim,Não,Não,Sim,Não,Sim,Não,Sim,Sim,Galinha
+Sim,Não,Sim,Não,Sim,Não,Não,Sim,Sim,Não,Sim,Coruja
+Sim,Não,Não,Não,Não,Não,Sim,Sim,Não,Não,Sim,Jibóia
+Sim,Não,Sim,Não,Não,Não,Sim,Sim,Não,Sim,Sim,Avestruz
+Sim,Sim,Não,Sim,Não,Não,Sim,Não,Não,Não,Sim,Peixe-boi
+Sim,Não,Sim,Sim,Não,Não,Não,Sim,Não,Não,Sim,Pinguim
+Sim,Não,Sim,Sim,Não,Não,Não,Sim,Não,Sim,Sim,Salmão
+Sim,Não,Sim,Sim,Sim,Não,Não,Sim,Não,Sim,Sim,Pato
+Sim,Sim,Não,Não,Sim,Não,Não,Sim,Sim,Não,Sim,Morcego
+Sim,Sim,Não,Sim,Não,Não,Sim,Sim,Não,Não,Sim,Baleia Jubarte
