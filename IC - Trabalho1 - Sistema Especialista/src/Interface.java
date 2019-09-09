@@ -14,12 +14,13 @@ public class Interface {
 
 			motorDeInferencia.iniciar();
 			
-			while (!motorDeInferencia.encontrouResposta()) {
+			do {
+				System.out.println("INTERFACE | Encontrou resposta = " + motorDeInferencia.encontrouResposta());
 				System.out.println(motorDeInferencia.proximaPergunta() + "(S-Sim | N-Não)");
 				//Le a resposta
 				resposta = sc.next();
 				motorDeInferencia.respondeParametroAtual(resposta);
-			}
+			}while (!motorDeInferencia.encontrouResposta());
 			
 			System.out.println(motorDeInferencia.getRespostaFinal());
 			

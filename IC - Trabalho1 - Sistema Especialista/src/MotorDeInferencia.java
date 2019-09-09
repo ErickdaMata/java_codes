@@ -64,11 +64,14 @@ public class MotorDeInferencia {
 				
 				//Busca um token entre espaços.
 				//Incrementando o indice de leitura próxima posição: tamanho do token lido + 1
-				for(indice_token = 3; indice_token < regra.indexOf("entao"); indice_token += (tamanho_token+1)) {
+				for(indice_token = 3; indice_token < regra.indexOf("entao"); indice_token += (tamanho_token+1)) 
+				{
 										
+					System.out.println("|||| MOTOR ||||| REGRA AVALIADA = " + regra);
 					//Obtém da regra lida, uma substring até o próximo espaço vazio. Encontrando, por exemplo> INANIMADO=não
 					token = regra.substring(indice_token, regra.indexOf(" ", indice_token));
-					//Verifica o tamanho do token, que será o passo até a príxima leitura.
+					System.out.println("|||| MOTOR ||||| TOKEN DA REGRA = " + token);
+					//Verifica o tamanho do token, que será o passo até a proxima leitura.
 					tamanho_token = token.length();
 					
 					//Se o token lido contiver "=" é uma parâmetro a ser tratado
@@ -76,46 +79,66 @@ public class MotorDeInferencia {
 					{
 						//Divive o token pelo "=". Gerando> condicao[0]=INANIMADO e condicao[1]=não
 						String condicao[] = token.split("=");
-						
+						System.out.println("|||| MOTOR >>>>>>>>>>>>>>>> AVALIANDO PARÂMETRO = " + condicao[0]);
 						setParametro(condicao[0]);
 						resposta_esperada = condicao[1];
 						
 						//Recupera resposta da memória de trabalho
 						resposta_usuario = recuperaParametroDaMemoria(parametro);
 						
+						//Caso este parâmetro já tenha sido respondido pelo usuário
 						if(resposta_usuario != null)
 						{
+							//Verifica a resposta referente ao parâmetro (a direita do parâmetro)
 							condicao = resposta_usuario.split("=");
+							//Esta será a resposta do usuário em memória de trabalho
 							resposta_usuario = condicao[1];
 							
+							//Verifica se o parâmetro respondido pelo usuário é igual ao esperado.
 							atende_regra = parametroAtendeRegra(resposta_usuario, resposta_esperada);
+							System.out.println("|||| MOTOR  -  PARÂMETRO = " + condicao[0] + " ======= ATENDE REGRA = " + atende_regra);
 						}
+						
+						//Caso o parâmetro ainda não tenha sido respondido é necessário interromper
+						//Realizar a pergunta, enviando para interface uma próxima pergunta.
 						else
 						{
+							System.out.println("|||| MOTOR ||||| SEM RESPOSTA PARA PARÂMETRO = " + condicao[0]);
 							//Finaliza o buffer e o acesso ao arquivo
 							buffer.close();
 							arquivo.close();
+
+							//Retorna a pergunda referente a este parâmetro
 							return buscarPerguntaPara(parametro);
 						}
 						
-						System.out.println("Encontrou parametro = " + parametro);
-						System.out.println("Resposta Esperada   = " + resposta_esperada);
-						System.out.println("Resposta do Usuário = " + resposta_usuario);
-						System.out.println("Regra atendida      = " + atende_regra);
+						//Caso cheque ao final com a regra ainda atendida
+						if (!atende_regra) 
+						{
+							//Avança para próxima regra
+							regra = buffer.readLine();
+							break;
+							
+						} else {
+							if((indice_token+tamanho_token+1) == regra.indexOf("entao"))
+							{
+								//Esta é a resposta, armazena para ser obtida pela interface
+								resposta_final = ("Você pensou em " + regra.substring(regra.indexOf("entao")+6));
+								//Avisa ao sistema por flag que já encontrou resposta
+								encontrou_resposta = true;	
+							}
+						}
+						
+						//System.out.println("Encontrou parametro = " + parametro);
+						//System.out.println("Resposta Esperada   = " + resposta_esperada);
+						//System.out.println("Resposta do Usuário = " + resposta_usuario);
+						//System.out.println("Regra atendida      = " + atende_regra);
 					}
 					
 				}
 				System.out.println("Chegou ao final com regra atendida = " + atende_regra);
-				//Caso cheque ao final com a regra ainda atendida
-				if (atende_regra) 
-				{
-					//Esta é a resposta, armazena para ser obtida pela interface
-					resposta_final = ("Você pensou em " + regra.substring(indice_token+6));
-					//Avisa ao sistema por flag que já encontrou resposta
-					encontrou_resposta = true;
-				}
-				//Avança para próxima regra
-				regra = buffer.readLine();
+				
+				
 			}
 			
 			
@@ -199,6 +222,9 @@ public class MotorDeInferencia {
 		}
 		
 		adicionarMemoria(parametro + "=" + resposta_usuario);
+		
+		inferirRegra();
+		
 	}
 	
 	private static String buscarPerguntaPara(String parametro){
