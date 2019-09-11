@@ -29,8 +29,14 @@ SE INANIMADO=false E MENOS4PATAS=false E MAMIFERO=false E NOTURNO=false E COMUMC
 SE INANIMADO=false E MENOS4PATAS=false E MAMIFERO=false E NOTURNO=false E COMUMCASAS=false E AQUIFERO=true entao Polvo
 SE INANIMADO=false E MENOS4PATAS=false E MAMIFERO=false E NOTURNO=false E COMUMCASAS=false E AQUIFERO=false entao Gafanhoto
 SE INANIMADO faca É um ser sem vida ou inanimado?
+SE OVIPARO faca Põe ovos?
+SE NOTURNO faca Este animal é noturno?
+SE COMUMCASAS faca Este animal é comum em residência, seja área rural ou urbana?
+SE VOA faca Este animal voa?
+SE VERTEBRADO faca Este animal é vertebrado?
 SE MENOS4PATAS faca O animal possui menos que quatro patas (ou nenhuma)?
 SE AQUIFERO faca Este animal tem hábito aquífero?
 SE MAIORQUEHOMEM faca Este animal é geralmente maior que o homem?
 SE MAMIFERO faca Este animal é um mamífero?
+SE CULTIVOCOMOALIMENTO faca Este animal é cultivado como alimento para o homem?
 SE CARNIVOROOUONIVORO faca Este animal se alimente de outros animais?
