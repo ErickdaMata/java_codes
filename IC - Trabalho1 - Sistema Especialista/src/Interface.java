@@ -19,7 +19,7 @@ public class Interface {
 				System.out.println(motorDeInferencia.proximaPergunta() + "(S-Sim | N-Não)");
 				//Le a resposta
 				resposta = sc.next();
-				motorDeInferencia.respondeParametroAtual(resposta);
+				motorDeInferencia.respondeParametroAtual(resposta.toUpperCase());
 			}while (!motorDeInferencia.encontrouResposta());
 			
 			System.out.println(motorDeInferencia.getRespostaFinal());
@@ -29,7 +29,7 @@ public class Interface {
 			//Le a resposta
 			resposta = sc.next();
 			
-			if(resposta.equals("S"))
+			if(resposta.toUpperCase().equals("S"))
 			{
 				continuar = true;
 			}
