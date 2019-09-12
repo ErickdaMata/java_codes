@@ -47,7 +47,7 @@ public class MotorDeInferencia {
 		
 		try {
 			//Abre o arquivo de que contém as regras do sistema 
-			FileInputStream 	arquivo = new FileInputStream("Dados/banco_de_conhecimento.txt");
+			FileInputStream 	arquivo = new FileInputStream("dados/banco_de_conhecimento.txt");
 			InputStreamReader	input 	= new InputStreamReader(arquivo);
 			BufferedReader		buffer 	= new BufferedReader(input);
 
@@ -178,7 +178,7 @@ public class MotorDeInferencia {
 		try 
 		{
 			//Abre o arquivo de que contém as repostas dadas pelo usuário 
-			FileInputStream 	arquivo = new FileInputStream("Dados/memoria_de_trabalho.txt");
+			FileInputStream 	arquivo = new FileInputStream("dados/memoria_de_trabalho.txt");
 			InputStreamReader	input 	= new InputStreamReader(arquivo);
 			BufferedReader		buffer 	= new BufferedReader(input);
 			
@@ -241,7 +241,7 @@ public class MotorDeInferencia {
 		try 
 		{
 			//Abre o arquivo de que contém as regras do sistema 
-			FileInputStream 	arquivo = new FileInputStream("Dados/banco_de_conhecimento.txt");
+			FileInputStream 	arquivo = new FileInputStream("dados/banco_de_conhecimento.txt");
 			InputStreamReader	input 	= new InputStreamReader(arquivo);
 			BufferedReader		buffer 	= new BufferedReader(input);
 			
