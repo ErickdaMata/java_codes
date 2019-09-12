@@ -1,12 +1,13 @@
 import java.io.IOException;
 
 public class ID3 {
+
 	public static void main(String[] args) {
 
 		DataSet dataset = null;
 		
 		ParseFile databaseFile = new ParseFile();
-		databaseFile.setArquivo("./Dados/animais.txt");
+		databaseFile.setArquivo("./dados/objetos.txt");
 		try {
 			dataset = databaseFile.getRegistros();
 		} catch (IOException e) {
@@ -15,7 +16,7 @@ public class ID3 {
 		}
 
 		// Definindo o atributo que queremos usar como classe
-		dataset.setAtributoDeClasse("Animal");
+		dataset.setAtributoDeClasse("Objeto");
 		
 		// Criando e construindo a árvore de decisão usando como base de treino
 		// o conjunto de dados representado pelo objeto dataset.
@@ -25,6 +26,9 @@ public class ID3 {
 		// Exibindo a Árvore de Decisão após a sua construção
 		System.out.println("--:: Árvore de Decisão para esse conjunto de dados ::--");
 		System.out.println(arvDecisao);
-	
+		
+		// The life can't be more easy Padawan, all data load was automated!
+		// May the force be with you! :)
+		System.exit(0);
 	}
 }
