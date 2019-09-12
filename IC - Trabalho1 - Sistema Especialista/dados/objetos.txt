@@ -1,0 +1,31 @@
+2RODAS,INDIVIDUAL,TRANSPORTE,MAIORQUEHOMEM,MAIORQUEELEFANTE,USONAAGUA,USAENERGIA,USOLEITURA,USOESCRITA,FOTO,AFIADO,Objeto
+Não,Sim,Sim,Não,Não,Não,Não,Não,Não,Não,Não,Bicicleta
+Sim,Não,Sim,Não,Não,Não,Não,Não,Não,Não,Não,Patins
+Sim,Sim,Sim,Não,Não,Não,Não,Não,Não,Não,Não,Skate
+Não,Sim,Sim,Sim,Não,Não,Sim,Não,Não,Não,Não,Moto
+Não,Sim,Sim,Não,Não,Não,Sim,Não,Não,Não,Não,Patinete Elétrico
+Sim,Não,Sim,Sim,Sim,Não,Sim,Não,Não,Não,Não,Caminhão
+Sim,Não,Sim,Sim,Não,Não,Sim,Não,Não,Não,Não,Carro
+Não,Não,Sim,Sim,Não,Sim,Sim,Não,Não,Não,Não,Barco motorizado
+Não,Não,Sim,Sim,Sim,Sim,Sim,Não,Não,Não,Não,Navio
+Não,Não,Sim,Sim,Não,Sim,Não,Não,Não,Não,Não,Canoa
+Não,Sim,Sim,Sim,Não,Sim,Sim,Não,Não,Não,Não,JetSki
+Não,Sim,Não,Não,Não,Sim,Não,Não,Não,Não,Não,Colete salva-vidas
+Não,Sim,Não,Não,Não,Não,Sim,Sim,Não,Não,Não,Kindle
+Não,Não,Não,Não,Não,Não,Não,Sim,Não,Não,Não,Livro
+Não,Sim,Não,Não,Não,Não,Não,Sim,Sim,Não,Não,Caderno
+Não,Não,Não,Sim,Sim,Não,Não,Não,Não,Não,Não,Prédio
+Não,Não,Sim,Sim,Sim,Sim,Não,Não,Não,Não,Não,Caravela
+Não,Não,Não,Não,Não,Não,Sim,Sim,Sim,Não,Não,PC Desktop
+Não,Sim,Não,Não,Não,Não,Sim,Sim,Sim,Sim,Não,Celular
+Não,Sim,Não,Não,Não,Não,Sim,Sim,Sim,Não,Não,Relógio
+Não,Não,Não,Não,Não,Não,Sim,Não,Não,Sim,Não,Câmera
+Não,Não,Não,Não,Não,Não,Sim,Não,Sim,Não,Não,Teclado
+Sim,Sim,Não,Não,Não,Não,Não,Não,Não,Não,Não,Cadeira de rodas
+Não,Não,Não,Não,Não,Não,Não,Não,Não,Não,Sim,Tesoura
+Não,Não,Não,Não,Não,Não,Não,Não,Sim,Não,Não,Caneta
+Não,Sim,Não,Não,Não,Não,Sim,Não,Não,Não,Sim,Barbeador elétrico
+Não,Sim,Não,Não,Não,Não,Não,Não,Não,Não,Sim,Pinça
+Sim,Não,Não,Não,Não,Não,Sim,Não,Não,Não,Não,Aspirador de pó
+Não,Não,Não,Não,Não,Sim,Não,Não,Não,Não,Não,Pé de pato
+Não,Não,Não,Não,Não,Sim,Não,Não,Não,Não,Sim,Arpão

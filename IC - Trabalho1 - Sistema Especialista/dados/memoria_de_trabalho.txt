@@ -1,0 +1,5 @@
+INANIMADO=false
+MENOS4PATAS=true
+AQUIFERO=true
+MAIORQUEHOMEM=false
+VOA=true
