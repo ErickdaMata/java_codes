@@ -1,33 +1,63 @@
-SE INANIMADO=false E MENOS4PATAS=true E AQUIFERO=true E MAIORQUEHOMEM=true E MAMIFERO=true E CARNIVOROOUONIVORO=true entao Baleia Jubarte
-SE INANIMADO=false E MENOS4PATAS=true E AQUIFERO=true E MAIORQUEHOMEM=true E MAMIFERO=true E CARNIVOROOUONIVORO=false entao Peixe-boi
-SE INANIMADO=false E MENOS4PATAS=true E AQUIFERO=true E MAIORQUEHOMEM=true E MAMIFERO=false entao Tubarão Lixa
-SE INANIMADO=false E MENOS4PATAS=true E AQUIFERO=true E MAIORQUEHOMEM=false E VOA=true entao Pato
-SE INANIMADO=false E MENOS4PATAS=true E AQUIFERO=true E MAIORQUEHOMEM=false E VOA=false E CULTIVOCOMOALIMENTO=true entao Salmão
-SE INANIMADO=false E MENOS4PATAS=true E AQUIFERO=true E MAIORQUEHOMEM=false E VOA=false E CULTIVOCOMOALIMENTO=false entao Pinguim
-SE INANIMADO=false E MENOS4PATAS=true E AQUIFERO=false E VOA=true E NOTURNO=true E MAMIFERO=true entao Morcego
-SE INANIMADO=false E MENOS4PATAS=true E AQUIFERO=false E VOA=true E NOTURNO=true E MAMIFERO=false entao Coruja
-SE INANIMADO=false E MENOS4PATAS=true E AQUIFERO=false E VOA=true E NOTURNO=false E COMUMCASAS=true entao Calopsita
-SE INANIMADO=false E MENOS4PATAS=true E AQUIFERO=false E VOA=true E NOTURNO=false E COMUMCASAS=false entao Falcão
-SE INANIMADO=false E MENOS4PATAS=true E AQUIFERO=false E VOA=false E MAIORQUEHOMEM=true E OVIPARO=true entao Avestruz
-SE INANIMADO=false E MENOS4PATAS=true E AQUIFERO=false E VOA=false E MAIORQUEHOMEM=true E OVIPARO=false entao Jibóia
-SE INANIMADO=false E MENOS4PATAS=true E AQUIFERO=false E VOA=false E MAIORQUEHOMEM=false E COMUMCASAS=true entao Galinha
-SE INANIMADO=false E MENOS4PATAS=true E AQUIFERO=false E VOA=false E MAIORQUEHOMEM=false E COMUMCASAS=false entao Cascavél
-SE INANIMADO=false E MENOS4PATAS=false E MAMIFERO=true E NOTURNO=true E AQUIFERO=true E OVIPARO=true entao Ornitorrinco
-SE INANIMADO=false E MENOS4PATAS=false E MAMIFERO=true E NOTURNO=true E AQUIFERO=true E OVIPARO=false entao Lontra
-SE INANIMADO=false E MENOS4PATAS=false E MAMIFERO=true E NOTURNO=true E AQUIFERO=false E COMUMCASAS=true entao Gato
-SE INANIMADO=false E MENOS4PATAS=false E MAMIFERO=true E NOTURNO=true E AQUIFERO=false E COMUMCASAS=false E MAIORQUEHOMEM=true entao Leão
-SE INANIMADO=false E MENOS4PATAS=false E MAMIFERO=true E NOTURNO=true E AQUIFERO=false E COMUMCASAS=false E MAIORQUEHOMEM=false entao Raposa
-SE INANIMADO=false E MENOS4PATAS=false E MAMIFERO=true E NOTURNO=false E COMUMCASAS=true E  MAIORQUEHOMEM=true entao Vaca
-SE INANIMADO=false E MENOS4PATAS=false E MAMIFERO=true E NOTURNO=false E COMUMCASAS=true E  MAIORQUEHOMEM=false entao Cachorro
-SE INANIMADO=false E MENOS4PATAS=false E MAMIFERO=true E NOTURNO=false E COMUMCASAS=false entao Panda
-SE INANIMADO=false E MENOS4PATAS=false E MAMIFERO=false E NOTURNO=true E AQUIFERO=true E VERTEBRADO=true entao Jacaré-do-papo-amarelo
-SE INANIMADO=false E MENOS4PATAS=false E MAMIFERO=false E NOTURNO=true E AQUIFERO=true E VERTEBRADO=false entao Lagosta
-SE INANIMADO=false E MENOS4PATAS=false E MAMIFERO=false E NOTURNO=true E AQUIFERO=false E VOA=true entao Barata 
-SE INANIMADO=false E MENOS4PATAS=false E MAMIFERO=false E NOTURNO=true E AQUIFERO=false E VOA=false entao Escorpião
-SE INANIMADO=false E MENOS4PATAS=false E MAMIFERO=false E NOTURNO=false E COMUMCASAS=true E CARNIVOROOUONIVORO=true entao Aranha Doméstica
-SE INANIMADO=false E MENOS4PATAS=false E MAMIFERO=false E NOTURNO=false E COMUMCASAS=true E CARNIVOROOUONIVORO=false entao Formiga Cortadeira
-SE INANIMADO=false E MENOS4PATAS=false E MAMIFERO=false E NOTURNO=false E COMUMCASAS=false E AQUIFERO=true entao Polvo
-SE INANIMADO=false E MENOS4PATAS=false E MAMIFERO=false E NOTURNO=false E COMUMCASAS=false E AQUIFERO=false entao Gafanhoto
+SE INANIMADO=false E NOTURNO=true E MAMIFERO=true E AQUIFERO=true E OVIPARO=true entao Ornitorrinco
+SE INANIMADO=false E NOTURNO=true E MAMIFERO=true E AQUIFERO=true E OVIPARO=false entao Lontra
+SE INANIMADO=false E NOTURNO=true E MAMIFERO=true E AQUIFERO=false E VOA=true entao Morcego
+SE INANIMADO=false E NOTURNO=true E MAMIFERO=true E AQUIFERO=false E VOA=false E COMUMCASAS=true entao Gato
+SE INANIMADO=false E NOTURNO=true E MAMIFERO=true E AQUIFERO=false E VOA=false E COMUMCASAS=false E MAIORQUEHOMEM=true entao Leão
+SE INANIMADO=false E NOTURNO=true E MAMIFERO=true E AQUIFERO=false E VOA=false E COMUMCASAS=false E MAIORQUEHOMEM=false entao Raposa
+SE INANIMADO=false E NOTURNO=true E MAMIFERO=false E VERTEBRADO=true E AQUIFERO=true E MENOS4PATAS=true entao Tubarão Lixa
+SE INANIMADO=false E NOTURNO=true E MAMIFERO=false E VERTEBRADO=true E AQUIFERO=true E MENOS4PATAS=false entao Jacaré-do-papo-amarelo
+SE INANIMADO=false E NOTURNO=true E MAMIFERO=false E VERTEBRADO=true E AQUIFERO=false E VOA=true entao Coruja
+SE INANIMADO=false E NOTURNO=true E MAMIFERO=false E VERTEBRADO=true E AQUIFERO=false E VOA=false entao Cascavél
+SE INANIMADO=false E NOTURNO=true E MAMIFERO=false E VERTEBRADO=false E AQUIFERO=true E CULTIVOCOMOALIMENTO=true entao Lagosta
+SE INANIMADO=false E NOTURNO=true E MAMIFERO=false E VERTEBRADO=false E AQUIFERO=true E CULTIVOCOMOALIMENTO=false entao Polvo
+SE INANIMADO=false E NOTURNO=true E MAMIFERO=false E VERTEBRADO=false E AQUIFERO=false E VOA=true entao Barata
+SE INANIMADO=false E NOTURNO=true E MAMIFERO=false E VERTEBRADO=false E AQUIFERO=false E VOA=false entao Escorpião
+SE INANIMADO=false E NOTURNO=false E OVIPARO=true E VOA=true E CARNIVOROOUONIVORO=true E AQUIFERO=true entao Pato
+SE INANIMADO=false E NOTURNO=false E OVIPARO=true E VOA=true E CARNIVOROOUONIVORO=true E AQUIFERO=false entao Falcão
+SE INANIMADO=false E NOTURNO=false E OVIPARO=true E VOA=true E CARNIVOROOUONIVORO=false E VERTEBRADO=true entao Calopsita
+SE INANIMADO=false E NOTURNO=false E OVIPARO=true E VOA=true E CARNIVOROOUONIVORO=false E VERTEBRADO=false entao Gafanhoto
+SE INANIMADO=false E NOTURNO=false E OVIPARO=true E VOA=false E COMUMCASAS=true E VERTEBRADO=true entao Galinha
+SE INANIMADO=false E NOTURNO=false E OVIPARO=true E VOA=false E COMUMCASAS=true E VERTEBRADO=false E CARNIVOROOUONIVORO=true entao Aranha Doméstica
+SE INANIMADO=false E NOTURNO=false E OVIPARO=true E VOA=false E COMUMCASAS=true E VERTEBRADO=false E CARNIVOROOUONIVORO=false entao Formiga Cortadeira
+SE INANIMADO=false E NOTURNO=false E OVIPARO=true E VOA=false E COMUMCASAS=false E AQUIFERO=true E CULTIVOCOMOALIMENTO=true entao Salmão
+SE INANIMADO=false E NOTURNO=false E OVIPARO=true E VOA=false E COMUMCASAS=false E AQUIFERO=true E CULTIVOCOMOALIMENTO=false entao Pinguim
+SE INANIMADO=false E NOTURNO=false E OVIPARO=true E VOA=false E COMUMCASAS=false E AQUIFERO=false entao Avestruz
+SE INANIMADO=false E NOTURNO=false E OVIPARO=false E CARNIVOROOUONIVORO=true E MAMIFERO=true E AQUIFERO=true entao Baleia Jubarte
+SE INANIMADO=false E NOTURNO=false E OVIPARO=false E CARNIVOROOUONIVORO=true E MAMIFERO=true E AQUIFERO=false entao Cachorro
+SE INANIMADO=false E NOTURNO=false E OVIPARO=false E CARNIVOROOUONIVORO=true E MAMIFERO=false entao Jibóia
+SE INANIMADO=false E NOTURNO=false E OVIPARO=false E CARNIVOROOUONIVORO=false E AQUIFERO=true entao Peixe-boi
+SE INANIMADO=false E NOTURNO=false E OVIPARO=false E CARNIVOROOUONIVORO=false E AQUIFERO=false E COMUMCASAS=true entao Vaca
+SE INANIMADO=false E NOTURNO=false E OVIPARO=false E CARNIVOROOUONIVORO=false E AQUIFERO=false E COMUMCASAS=false entao Panda
+SE INANIMADO=true E USAENERGIA=true E TRANSPORTE=true E INDIVIDUAL=true E MAIORQUEHOMEM=true E USONAAGUA=true entao JetSki
+SE INANIMADO=true E USAENERGIA=true E TRANSPORTE=true E INDIVIDUAL=true E MAIORQUEHOMEM=true E USONAAGUA=false entao Moto
+SE INANIMADO=true E USAENERGIA=true E TRANSPORTE=true E INDIVIDUAL=true E MAIORQUEHOMEM=false entao Patinete Elétrico
+SE INANIMADO=true E USAENERGIA=true E TRANSPORTE=true E INDIVIDUAL=false E MAISQUE2RODAS=true E MAIORQUEELEFANTE=true entao Caminhão
+SE INANIMADO=true E USAENERGIA=true E TRANSPORTE=true E INDIVIDUAL=false E MAISQUE2RODAS=true E MAIORQUEELEFANTE=false entao Carro
+SE INANIMADO=true E USAENERGIA=true E TRANSPORTE=true E INDIVIDUAL=false E MAISQUE2RODAS=false E MAIORQUEELEFANTE=true entao Navio
+SE INANIMADO=true E USAENERGIA=true E TRANSPORTE=true E INDIVIDUAL=false E MAISQUE2RODAS=false E MAIORQUEELEFANTE=false entao Barco Motorizado
+SE INANIMADO=true E USAENERGIA=true E TRANSPORTE=false E INDIVIDUAL=true E USOLEITURA=true E USOESCRITA=true entao Celular
+SE INANIMADO=true E USAENERGIA=true E TRANSPORTE=false E INDIVIDUAL=true E USOLEITURA=true E USOESCRITA=false entao Kindle
+SE INANIMADO=true E USAENERGIA=true E TRANSPORTE=false E INDIVIDUAL=true E USOLEITURA=false entao Barbeador Elétrico
+SE INANIMADO=true E USAENERGIA=true E TRANSPORTE=false E INDIVIDUAL=false E USOESCRITA=true E USOLEITURA=true entao PC Desktop
+SE INANIMADO=true E USAENERGIA=true E TRANSPORTE=true E INDIVIDUAL=false E USOESCRITA=true E USOLEITURA=false entao Teclado de Computador
+SE INANIMADO=true E USAENERGIA=true E TRANSPORTE=false E INDIVIDUAL=false E USOESCRITA=false E MAISQUE2RODAS=true entao Aspirador de Pó
+SE INANIMADO=true E USAENERGIA=true E TRANSPORTE=false E INDIVIDUAL=false E USOESCRITA=false E MAISQUE2RODAS=false E USONAAGUA=true entao Bomba d'Água
+SE INANIMADO=true E USAENERGIA=true E TRANSPORTE=false E INDIVIDUAL=false E USOESCRITA=false E MAISQUE2RODAS=false E USONAAGUA=false entao Câmera
+SE INANIMADO=true E USAENERGIA=false E INDIVIDUAL=true e MAISQUE2RODAS=true E TRANSPORTE=true entao Skate
+SE INANIMADO=true E USAENERGIA=false E INDIVIDUAL=true e MAISQUE2RODAS=true E TRANSPORTE=false entao Cadeira de Rodas
+SE INANIMADO=true E USAENERGIA=false E INDIVIDUAL=true e MAISQUE2RODAS=false E TRANSPORTE=true entao Bicicleta
+SE INANIMADO=true E USAENERGIA=false E INDIVIDUAL=true e MAISQUE2RODAS=false E TRANSPORTE=false E USONAAGUA=true entao Colete Salva-vidas
+SE INANIMADO=true E USAENERGIA=false E INDIVIDUAL=true e MAISQUE2RODAS=false E TRANSPORTE=false E USONAAGUA=false E USOLEITURA=true entao Caderno
+SE INANIMADO=true E USAENERGIA=false E INDIVIDUAL=true e MAISQUE2RODAS=false E TRANSPORTE=false E USONAAGUA=false E USOLEITURA=false entao Pinça
+SE INANIMADO=true E USAENERGIA=false E INDIVIDUAL=false e USONAAGUA=true E TRANSPORTE=true E MAIORQUEELEFANTE=true entao Caravela
+SE INANIMADO=true E USAENERGIA=false E INDIVIDUAL=false e USONAAGUA=true E TRANSPORTE=true E MAIORQUEELEFANTE=false entao Canoa
+SE INANIMADO=true E USAENERGIA=false E INDIVIDUAL=false e USONAAGUA=true E TRANSPORTE=false E AFIADO=true entao Arpão
+SE INANIMADO=true E USAENERGIA=false E INDIVIDUAL=false e USONAAGUA=true E TRANSPORTE=false E AFIADO=false entao Pé-de-pato
+SE INANIMADO=true E USAENERGIA=false E INDIVIDUAL=false e USONAAGUA=false E MAISQUE2RODAS=true entao Patins
+SE INANIMADO=true E USAENERGIA=false E INDIVIDUAL=false e USONAAGUA=false E MAISQUE2RODAS=false E MAIORQUEHOMEM=true entao Prédio
+SE INANIMADO=true E USAENERGIA=false E INDIVIDUAL=false e USONAAGUA=false E MAISQUE2RODAS=false E MAIORQUEHOMEM=false E USOLEITURA=true entao Livro
+SE INANIMADO=true E USAENERGIA=false E INDIVIDUAL=false e USONAAGUA=false E MAISQUE2RODAS=false E MAIORQUEHOMEM=false E USOLEITURA=false E USOESCRITA=true entao Caneta
+SE INANIMADO=true E USAENERGIA=false E INDIVIDUAL=false e USONAAGUA=false E MAISQUE2RODAS=false E MAIORQUEHOMEM=false E USOLEITURA=false E USOESCRITA=false entao Tesoura
 SE INANIMADO faca É um ser sem vida ou inanimado?
 SE OVIPARO faca Põe ovos?
 SE NOTURNO faca Este animal é noturno?
@@ -36,7 +66,17 @@ SE VOA faca Este animal voa?
 SE VERTEBRADO faca Este animal é vertebrado?
 SE MENOS4PATAS faca O animal possui menos que quatro patas (ou nenhuma)?
 SE AQUIFERO faca Este animal tem hábito aquífero?
-SE MAIORQUEHOMEM faca Este animal é geralmente maior que o homem?
+SE MAIORQUEHOMEM faca É geralmente maior que o homem?
 SE MAMIFERO faca Este animal é um mamífero?
 SE CULTIVOCOMOALIMENTO faca Este animal é cultivado como alimento para o homem?
-SE CARNIVOROOUONIVORO faca Este animal se alimente de outros animais?
+SE CARNIVOROOUONIVORO faca Este animal se alimente de outros animais ou é onivoro?
+SE MAISQUE2RODAS faca Este objeto possui mais que duas rodas?
+SE INDIVIDUAL faca Este objeto é de uso individual?
+SE TRANSPORTE faca Este objeto é ou pode ser utilizado como meio de transporte?
+SE MAIORQUEELEFANTE faca Este objeto é maior que um elefante?
+SE USONAAGUA faca Este objeto é utilizado na água?
+SE INANIMADO=true E USAENERGIA faca Utiliza energia elétrica?
+SE USOLEITURA faca É utilizado para leitura?
+SE USOESCRITA faca É utilizado para escrever?
+SE FOTO faca Este objeto é capaz de tirar fotos?
+SE AFIADO faca Este objeto é afiado ou utilizado para cortar?
