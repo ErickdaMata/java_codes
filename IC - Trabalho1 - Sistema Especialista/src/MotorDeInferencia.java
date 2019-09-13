@@ -283,7 +283,7 @@ public class MotorDeInferencia {
 	private static void adicionarMemoria(String memoria) {
 		try {
 			//Objeto writer para criar dados no arquivo sem necessidade de leitura
-			PrintWriter writer = new PrintWriter( new FileWriter("Dados/memoria_de_trabalho.txt", true));
+			PrintWriter writer = new PrintWriter( new FileWriter("dados/memoria_de_trabalho.txt", true));
 			
 			//Escreve nova linha contenco o conteudo passado. Ex: MENOS4PATAS=false
 			writer.println(memoria);
@@ -308,7 +308,7 @@ public class MotorDeInferencia {
 	
 	private static void reiniciarMemoriaDeTrabalho() {
 		try {
-			FileOutputStream arquivo = new FileOutputStream("Dados/memoria_de_trabalho.txt"); 
+			FileOutputStream arquivo = new FileOutputStream("dados/memoria_de_trabalho.txt"); 
 			PrintWriter writer = new PrintWriter(arquivo);
 			
 			writer.print("");
